@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dino Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="dino">
+      <img id="dinoPic" src="assets/dino_1.png" alt="dino">
+    </div>
+    <div id="block">
+      <img id="cactusPic" src="assets/cacti_1.png" alt="blocks">
+    </div>
+    <div id="road">
+      <img src="assets/road.png" alt="road">
+    </div>
+    <div id="cloud">
+      <img src="assets/cloud.jpg" alt="cloud">
+    </div>
+    <div id="score">Score <b>00</b></div>
+    <div id="gameOver">Game Over</div>
+  </div>
+  <div id="pose">
+    <div><canvas id='canvas'></canvas></div>
+  </div>
+
+  <script type="module" src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8.3/dist/teachablemachine-pose.min.js"></script>
+</body>
+
+</html>
